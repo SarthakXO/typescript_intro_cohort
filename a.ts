@@ -1,3 +1,7 @@
 let x: number = 1;
-x = "sarthak";
-console.log(x);
+
+const func = (firstName: string) => {
+  console.log("Hello " + firstName);
+};
+
+console.log(func("Sarthak"));
