@@ -11,3 +11,13 @@ const sum = (a, b) => {
 };
 const value = sum(1, 2);
 console.log(value);
+//problem 3 return true or false if 18+
+const isLegal = (age) => {
+    if (age > 18) {
+        return true;
+    }
+    else {
+        return false;
+    }
+};
+isLegal(24);
