@@ -21,3 +21,12 @@ const isLegal = (age) => {
     }
 };
 isLegal(24);
+//problem 4 a function that takes another fn as an input
+const taker = (fn) => {
+    setTimeout(() => {
+        fn();
+    }, 1000);
+};
+taker(() => {
+    console.log("hello");
+});
