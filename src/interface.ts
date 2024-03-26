@@ -6,7 +6,7 @@ interface User {
   firstName: string;
   lastName: string;
   age: number;
-  email: string;
+  emai?: string;
 }
 
 const user = {
