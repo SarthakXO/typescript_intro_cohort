@@ -23,3 +23,5 @@ const isLegalCheck = (obj: User) => {
     return false;
   }
 };
+
+console.log(isLegalCheck(user));
