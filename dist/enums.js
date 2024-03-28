@@ -10,3 +10,4 @@ const doSomething = (keyPressed) => {
 };
 doSomething(Direction.Up);
 doSomething(Direction.Down);
+console.log(Direction.Down);
