@@ -1,7 +1,6 @@
-type InputArray = number | string;
-const firstEl = (arr: InputArray[]) => {
-  return arr[0];
-};
-const firstElValue = firstEl(["sarthak", "bhatt"]);
+function identity<T>(arg: T) {
+  return arg;
+}
 
-console.log(firstElValue.toUpperCase()); // problem as ts doesnt infer string type
+let ouput1 = identity<string>("MyString");
+let ouput2 = identity<number>(1234);
