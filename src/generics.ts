@@ -10,4 +10,8 @@ const firstEl = <T>(arr: T[]) => {
   return arr[0];
 };
 
-console.log(firstEl(["sarthak", "bhatt"]).toUpperCase());
+const value1 = firstEl<string>(["sarthak", "bhatt"]).toUpperCase();
+const value2 = firstEl<number>([123, 567]);
+
+console.log(value1);
+console.log(value2);
