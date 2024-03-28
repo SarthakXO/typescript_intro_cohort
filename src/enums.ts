@@ -1,10 +1,10 @@
 type KeyInput = "up" | "down" | "left" | "right"; //workable way
 
 enum Direction {
-  Up,
-  Down,
-  Left,
-  Right,
+  Up = "up",
+  Down = "down",
+  Left = "left",
+  Right = "right",
 }
 
 const doSomething = (keyPressed: Direction) => {
