@@ -4,4 +4,4 @@ const firstEl = (arr: InputArray[]) => {
 };
 const firstElValue = firstEl(["sarthak", "bhatt"]);
 
-console.log(firstElValue);
+console.log(firstElValue.toUpperCase()); // problem as ts doesnt infer string type
